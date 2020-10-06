@@ -1,0 +1,62 @@
+
+CREATE TABLE IF NOT EXISTS Orders
+(
+    OrderID INT NOT NULL,
+    OrderDate Date NOT NULL,
+    Customer VARCHAR(5) NOT NULL,
+	PRIMARY KEY (OrderID)
+
+);
+
+INSERT INTO Orders (OrderID, OrderDate, Customer)
+VALUES (1, '2019-06-22', '1');
+INSERT INTO Orders (OrderID, OrderDate, Customer)
+VALUES (2, '2019-07-22', '2');
+INSERT INTO Orders (OrderID, OrderDate, Customer)
+VALUES (3, '2019-08-22', '3');
+
+CREATE TABLE IF NOT EXISTS OrderDetails
+(
+	OrderID INT NOT NULL,
+	ProductID INT NOT NULL,
+	Quantity INT NOT NULL,
+	PRIMARY KEY (OrderID, ProductID),
+	CONSTRAINT  CHECK (Quantity <> 0)
+
+)
+
+INSERT INTO OrderDetails(OrderID, ProductID, Quantity)
+VALUES(1, 1, 20);
+INSERT INTO OrderDetails(OrderID, ProductID, Quantity)
+VALUES(2, 2, 10);
+INSERT INTO OrderDetails(OrderID, ProductID, Quantity)
+VALUES(3, 3, 5);
+
+CREATE TABLE IF NOT EXISTS Products
+(
+	ProductID INT AUTO_INCREMENT NOT NULL,
+	Product_Details VARCHAR(30) NOT NULL,
+	Price FLOAT NOT NULL,
+	Quantity INT NOT NULL,
+	PRIMARY KEY (ProductID)
+
+);
+
+INSERT INTO Products(Product_Details, Price, Quantity)
+VALUES('Pens - Black biro',0.30, 200);
+INSERT INTO Products(Product_Details, Price, Quantity)
+VALUES('Pens - Green biro',0.30, 200);
+INSERT INTO Products(Product_Details, Price, Quantity)
+VALUES('Pens - Red biro',0.30, 200);
+
+//Code to modift Orders.Customer to Orders.CustomerID
+// and change datatype to INT
+
+ALTER TABLE Orders
+ALTER TABLE Orders CHANGE `Customer` `CustomerID` INT;
+
+ALTER TABLE Orders
+MODIFY Customer INT;
+
+
+
