@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\UnitFour\\ForShirley\\ForShirley\\ForShirley.csproj": {}
+    "C:\\Users\\Steve's laptop\\Source\\Repos\\COMP2001\\ForShirley\\ForShirley\\ForShirley.csproj": {}
   },
   "projects": {
-    "D:\\source\\UnitFour\\ForShirley\\ForShirley\\ForShirley.csproj": {
+    "C:\\Users\\Steve's laptop\\Source\\Repos\\COMP2001\\ForShirley\\ForShirley\\ForShirley.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\UnitFour\\ForShirley\\ForShirley\\ForShirley.csproj",
+        "projectUniqueName": "C:\\Users\\Steve's laptop\\Source\\Repos\\COMP2001\\ForShirley\\ForShirley\\ForShirley.csproj",
         "projectName": "ForShirley",
-        "projectPath": "D:\\source\\UnitFour\\ForShirley\\ForShirley\\ForShirley.csproj",
+        "projectPath": "C:\\Users\\Steve's laptop\\Source\\Repos\\COMP2001\\ForShirley\\ForShirley\\ForShirley.csproj",
         "packagesPath": "C:\\Users\\Steve's laptop\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\UnitFour\\ForShirley\\ForShirley\\obj\\",
+        "outputPath": "C:\\Users\\Steve's laptop\\Source\\Repos\\COMP2001\\ForShirley\\ForShirley\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\Steve's laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H/RWZu+kYnNG68GW8omCLIvFU9JGLC64a3/Rpg2BdyTuBbUQkLbnFBE10t7SiZDo+AEMnOGKGQ9PKZGXydfByw==",
+  "dgSpecHash": "VIH0uCjKHjqArg9U+ej4uta1RRsLUPrLyUbV28TuaPkyX7c4NSoXQgjtartj1tZG81gE8pjjAe8UYDN9mu7cVQ==",
   "success": true,
-  "projectFilePath": "D:\\source\\UnitFour\\ForShirley\\ForShirley\\ForShirley.csproj",
+  "projectFilePath": "C:\\Users\\Steve's laptop\\Source\\Repos\\COMP2001\\ForShirley\\ForShirley\\ForShirley.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Steve's laptop\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Steve's laptop\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
